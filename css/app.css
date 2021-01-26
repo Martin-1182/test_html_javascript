@@ -1,0 +1,16 @@
+.full-h {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70vh;
+}
+.assignment {
+  background: cornsilk;
+  padding: 1.3rem;
+  border-radius: 10px;
+}
+.to-hide {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s .1s, opacity .1s linear;
+}
