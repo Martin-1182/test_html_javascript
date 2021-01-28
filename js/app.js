@@ -24,8 +24,6 @@ comboButton.addEventListener('click', function (event) {
 
     comboResult.forEach((row) => { 
 
-        
-        
         if (row.innerText.length < 3) {  
                     
             return false
