@@ -22,13 +22,19 @@ comboButton.addEventListener('click', function (event) {
 
     let comboResult = tRows.filter((row) => row.className === 'combo')
 
-    comboResult.forEach((row) => {
-        if (row.innerText.length < 3) {
-            console.error('a & b expression not found')
+    comboResult.forEach((row) => { 
+
+        
+        
+        if (row.innerText.length < 3) {  
+                    
             return false
-        } else {
+            
+        }  else {
+
             row.classList.add('to-hide')
             return true
-        }
+        } 
+        
     })
 })
